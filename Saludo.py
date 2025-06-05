@@ -1,0 +1,10 @@
+def Saludo():
+    print("Hola, bienvenido a mi programa")
+    print("Espero que tengas un buen día")
+    print("¿Cómo te llamas?")
+    nombre = input()
+    print(f"Hola {nombre}, ¿cómo estás?")
+    estado = input()
+    print(f"Me alegra saber que estás {estado}")
+    print("¡Hasta luego!")
+Saludo()
